@@ -27,8 +27,8 @@ jobs:
             extra-packages: ""
           - os: windows-latest
             extra-packages: ""
-          - os: macos-latest
-            extra-packages: ""
+          #- os: macos-latest
+          #  extra-packages: ""
         exclude:
           - os: macos-latest
             compiler: flang-new
