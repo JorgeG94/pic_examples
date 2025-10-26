@@ -23,6 +23,21 @@ name = "pic_logger"
 source-dir = "pic_logger"
 main = "main.f90"
 
+[[executable]]
+name = "pic_timer"
+source-dir = "pic_timer"
+main = "main.f90"
+
+[[executable]]
+name = "pic_flops"
+source-dir = "pic_flops"
+main = "main.f90"
+
+[[executable]]
+name = "pic_flop_rate"
+source-dir = "pic_flop_rate"
+main = "main.f90"
+
 [build]
 auto-executables = true
 auto-tests = false
