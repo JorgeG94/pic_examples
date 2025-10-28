@@ -1,6 +1,6 @@
 program main
    use pic_logger, only: logger => global_logger, verbose_level, info_level
-   use pic_output_helpers, only: print_asterisk_row
+   use pic_io, only: print_asterisk_row
    implicit none
 
    call print_asterisk_row(50)

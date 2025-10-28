@@ -1,7 +1,7 @@
 program main
    use pic_flop_recorder, only: flop_recorder_type
    use pic_types, only: dp, int64
-   use pic_output_helpers, only: print_asterisk_row
+   use pic_io, only: print_asterisk_row
    implicit none
    type(flop_recorder_type) :: my_flops
    real(dp), allocatable :: A(:, :), B(:, :), C(:, :)

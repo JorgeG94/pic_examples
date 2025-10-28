@@ -1,9 +1,9 @@
 program main
-   use pic_timer, only: pic_timer_type
+   use pic_timer, only: timer_type
    use pic_types, only: dp
-   use pic_output_helpers, only: print_asterisk_row
+   use pic_io, only: print_asterisk_row
    implicit none
-   type(pic_timer_type) :: my_timer
+   type(timer_type) :: my_timer
    real(dp), allocatable :: A(:, :), B(:, :), C(:, :)
    integer, parameter :: m = 512
    integer :: i, j, k

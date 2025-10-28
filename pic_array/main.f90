@@ -3,7 +3,7 @@ program main
    use pic_array, only: pic_copy, pic_fill, get_threading_mode, is_sorted, &
                         pic_print_array, pic_scramble_array, &
                         pic_sum, pic_transpose, set_threading_mode
-   use pic_output_helpers, only: print_asterisk_row
+   use pic_io, only: print_asterisk_row
    implicit none
 
    real(sp), allocatable :: a_1d(:), a_2d(:, :)
