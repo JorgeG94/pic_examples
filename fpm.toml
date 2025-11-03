@@ -38,6 +38,11 @@ name = "pic_flop_rate"
 source-dir = "pic_flop_rate"
 main = "main.f90"
 
+[[executable]]
+name = "pic_string"
+source-dir = "pic_string"
+main = "main.f90"
+
 [build]
 auto-executables = true
 auto-tests = false
