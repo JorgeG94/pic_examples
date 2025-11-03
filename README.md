@@ -1,5 +1,8 @@
-# modern-fortran-project
-A template repository for modern fortran projects
+# PIC examples
+
+This repository contains a series of examples of simple uses of the routines implemented in the [pic](https://github.com/JorgeG94/pic) library.
+
+We use the fpm to build an run the examples. Simply do `fpm run` and you'll see things go broom.
 
 ## How to install the FPM
 
@@ -39,11 +42,3 @@ The repo also comes with a pre-commit that will ensure a formatting for your For
 python3 -m pip install pre-commit
 pre-commit install
 ```
-
-## Using your template repo in another project.
-
-This repo will install everything CMake needs to find the project. THe only thing you need to set is  `YOUR_PROJECT_NAME_ROOT=/path/to/install/location`
-
-And in your new project set `find_package(demo REQUIRED)`
-
-To then link to demo, you can simply add `demo::demo` to you `target_link_libraries(${tgt} PRIVATE demo::demo)`
