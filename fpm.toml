@@ -11,7 +11,7 @@ suffixes = ["F90", "f90"]
 [[executable]]
 name = "minimal_example"
 source-dir = "minimal_example"
-main = "minimal.f90"
+main = "minimal.F90"
 
 [[executable]]
 name = "pic_array"
