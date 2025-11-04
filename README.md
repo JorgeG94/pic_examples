@@ -4,6 +4,10 @@ This repository contains a series of examples of simple uses of the routines imp
 
 We use the fpm to build an run the examples. Simply do `fpm run` and you'll see things go broom.
 
+# KNOWN ISSUES
+
+LFortran build is failing due to https://github.com/JorgeG94/pic_examples/issues/1
+
 ## How to install the FPM
 
 See the instructions [here](https://fpm.fortran-lang.org/install/index.html)

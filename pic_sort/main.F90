@@ -8,7 +8,6 @@ program main
    integer(int64), allocatable :: array_int64(:)
    type(timer_type) :: my_timer
 
-#ifndef __LFORTRAN__
    allocate (array_int64(n))
    block
       integer(int64) :: i
@@ -47,7 +46,4 @@ program main
    print *, "Is the array sorted? ", is_sorted(array_int64)
 
    deallocate (array_int64)
-#else
-   print *, "For some reason lfortran doesn't like this now that I use submodule"
-#endif
 end program main
