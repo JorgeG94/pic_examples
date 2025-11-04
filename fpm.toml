@@ -43,6 +43,11 @@ name = "pic_string"
 source-dir = "pic_string"
 main = "main.f90"
 
+[[executable]]
+name = "pic_sort"
+source-dir = "pic_sort"
+main = "main.f90"
+
 [build]
 auto-executables = true
 auto-tests = false
