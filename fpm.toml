@@ -48,6 +48,16 @@ name = "pic_sort"
 source-dir = "pic_sort"
 main = "main.F90"
 
+[[executable]]
+name = "pic_pure_logger"
+source-dir = "pic_pure_logger"
+main = "main.f90"
+
+[[executable]]
+name = "pic_error"
+source-dir = "pic_error"
+main = "main.f90"
+
 [build]
 auto-executables = true
 auto-tests = false
